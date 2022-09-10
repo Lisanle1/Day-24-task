@@ -65,7 +65,7 @@ function NavBar(props) {
               </li>
             </ul>
             <form className="d-flex">
-              <button className="btn btn-outline-dark" type="submit">
+              <button className="btn btn-outline-dark" >
                 <i className="bi-cart-fill me-1 "></i>
                 Cart
                 <span className="badge bg-dark text-white ms-1 rounded-pill">
