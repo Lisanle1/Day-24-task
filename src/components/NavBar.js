@@ -22,12 +22,12 @@ function NavBar(props) {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="!#!">
+                <a className="nav-link active" aria-current="page" href="#!">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="!#!">
+                <a className="nav-link" href="#!">
                   About
                 </a>
               </li>
@@ -35,7 +35,7 @@ function NavBar(props) {
                 <a
                   className="nav-link dropdown-toggle"
                   id="navbarDropdown"
-                  href="!#"
+                  href="#!"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -65,7 +65,7 @@ function NavBar(props) {
               </li>
             </ul>
             <form className="d-flex">
-              <button className="btn btn-outline-dark" >
+              <button className="btn btn-outline-dark" type="button">
                 <i className="bi-cart-fill me-1 "></i>
                 Cart
                 <span className="badge bg-dark text-white ms-1 rounded-pill">
